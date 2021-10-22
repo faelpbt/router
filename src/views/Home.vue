@@ -1,20 +1,12 @@
 <template>
-    <div>
-       <h1>Home</h1> 
-       <FirstComponet />
-       <LifeCicle />
+    <div class="h-screen w-full flex items-center justify-center">
+       <h1 class="text-5xl">Home</h1> 
     </div>
 </template>
 
 <script>
-import FirstComponet from '../components/FirstComponent.vue'
-import LifeCicle from '../components/LifeCicle.vue'
 
 export default {
     name: 'Home',
-    components: {
-        FirstComponet,
-        LifeCicle,
-    }
 }
 </script>
